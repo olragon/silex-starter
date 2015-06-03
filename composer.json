@@ -21,6 +21,6 @@
   "require-dev": {
     "monolog/monolog": "~1.13.1",
     "silex/web-profiler": "2.0.*@dev",
-    "symfony/var-dumper": "~2.6.0"
+    "symfony/var-dumper": "~2.7.0"
   }
 }
