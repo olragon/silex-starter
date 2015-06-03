@@ -1,0 +1,26 @@
+{
+  "name": "vendor-name/project-name",
+  "autoload": {
+    "psr-4": {
+      "vendor_name\\project_name\\": "src"
+    }
+  },
+  "require": {
+    "bernard/bernard": "1.0.*@dev",
+    "dflydev/doctrine-orm-service-provider": "~2.0.0",
+    "doctrine/cache": "~1.4.1",
+    "doctrine/orm": "~2.5.0",
+    "guzzlehttp/guzzle": "~5.2.0",
+    "psr/log": "~1.0.0",
+    "silex/silex": "2.0.*@dev",
+    "symfony/console": "~2.7.0",
+    "symfony/security": "~2.7.0",
+    "symfony/serializer": "~2.7.0",
+    "twig/twig": "~1.18"
+  },
+  "require-dev": {
+    "monolog/monolog": "~1.13.1",
+    "silex/web-profiler": "2.0.*@dev",
+    "symfony/var-dumper": "~2.6.0"
+  }
+}
