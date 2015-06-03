@@ -23,5 +23,11 @@
     "monolog/monolog": "~1.13.1",
     "silex/web-profiler": "2.0.*@dev",
     "symfony/var-dumper": "~2.7.0"
+  },
+  "scripts": {
+    "run": [
+      "echo 'Started web server on http://localhost:8888'",
+      "php -S localhost:8888 -t web public/index.php"
+    ]
   }
 }
