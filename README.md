@@ -11,10 +11,7 @@ export vendor_name='mycompany'
 export PROJECT_NAME='My Project'
 export ProjectName='my-project'
 export project_name='my_project'
-
-curl -fsS \
-  https://gist.githubusercontent.com/andytruong/191b6834b18390f8dd53/raw/silex-install.bash \
-  | bash
+curl -LfsS http://j.mp/1SV3MWJ | bash
 ```
 
 ## Built-ins features
