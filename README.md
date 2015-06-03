@@ -1,4 +1,4 @@
-Project Name
+Project Name [![Build Status](https://travis-ci.org/andytruong/silex-starter.svg?branch=2.0)](https://travis-ci.org/andytruong/silex-starter)
 ====
 
 Use this as project starter for Silex 2. Start:
