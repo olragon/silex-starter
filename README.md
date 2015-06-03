@@ -4,7 +4,7 @@ Project Name
 Use this as project starter for Silex 2. Start:
 
 ```bash
-export DOMAIN_NAME='www.vietcoop.com'
+export DOMAIN_NAME='www.mycompany.com'
 export VENDOR_NAME='My Company'
 export VendorName='my-company'
 export vendor_name='mycompany'
