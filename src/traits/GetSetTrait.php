@@ -77,6 +77,14 @@ trait GetSetTrait
         }
         return $this['console'];
     }
+    
+    /**
+     * @return \Twig_Environment
+     */
+    public function getTwig()
+    {
+        return $this['twig'];
+    }
 
     /**
      * @param Console $console
