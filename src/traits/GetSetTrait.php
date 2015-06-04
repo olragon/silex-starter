@@ -13,6 +13,7 @@ use Doctrine\ORM\EntityManager;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 use Symfony\Component\Console\Application as Console;
+use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use vendor_name\project_name\queue\Consumer;
 
 trait GetSetTrait
@@ -63,6 +64,14 @@ trait GetSetTrait
     {
         $this['cache'] = $cache;
         return $this;
+    }
+    
+    /**
+     * @return EventDispatcherInterface
+     */
+    public function getDispatcher()
+    {
+        return $this['dispatcher'];
     }
 
     /**
