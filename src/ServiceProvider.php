@@ -31,7 +31,10 @@ class ServiceProvider implements ServiceProviderInterface, BootableProviderInter
      */
     public function register(Container $c)
     {
-        $c->register(new TwigServiceProvider(), ['twig.path' => $c['app.root'] . '/resources/views']);
+        $c->register(new TwigServiceProvider(), [
+            'twig.path' => $c['app.root'] . '/resources/views',
+            'twig.form.templates' => ['bootstrap_3_horizontal_layout.html.twig'],
+        ]);
         $c->register(new ServiceControllerServiceProvider());
         $c->register(new RoutingServiceProvider());
         $c->register(new FormServiceProvider());
