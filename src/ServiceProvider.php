@@ -91,7 +91,7 @@ class ServiceProvider implements ServiceProviderInterface, BootableProviderInter
      */
     public function boot(Application $app)
     {
-        $app->get('/', 'ctr.home:get')->bind('name');
+        // TODO: Implement boot() method.
     }
 
 }
