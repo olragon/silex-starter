@@ -13,7 +13,9 @@ class App extends Application
     public function __construct(array $values = [])
     {
         parent::__construct($values + ['app.root' => dirname(__DIR__)]);
+        
         $this->register(new ServiceProvider());
+        $this->mount('/', new ControllerProvider());
     }
 
 }
