@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Set php version through phpenv. 5.3, 5.4 and 5.5 available
-phpenv local 5.4
+phpenv local 5.5
 # Install extensions through Pecl
 # yes yes | pecl install memcache
 
