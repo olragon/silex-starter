@@ -8,6 +8,6 @@ phpenv local 5.5
 # Install dependencies through Composer
 composer install --prefer-source --no-interaction
 
-# Processes the schema and either create it
-php cli.php orm:schema-tool:create
+# Processes the schema and either create it if it's not exists otherwise update it
+php cli.php orm:schema-tool:update --force
 
