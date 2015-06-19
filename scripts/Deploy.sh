@@ -9,6 +9,25 @@
 #   bash ~/clone/Deploy.sh
 #
 
+# Target requirements
+# ---------------------
+# 
+# Softwares
+# --------
+# ssh
+# rsync
+# git
+# php5-cli (5.5+)
+# php5-sqlite or php5-mysql or php5-pgsql
+# php5-intl
+# composer
+# 
+# Authenticate
+# -------
+# CodeShip.com > Project settings > General -> SSH public key
+#   Copy -> Add to target ~/.ssh/authorized_keys
+# 
+
 # Variables
 # ---------------------
 # $CLONE           - Example: $HOME/clone
